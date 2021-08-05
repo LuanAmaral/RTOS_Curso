@@ -19,7 +19,10 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 # Aula 2
 ### Sumário
 <!--ts-->
-* 
+* Stack
+* Parâmetros
+* Priority
+* Pre Empts
 <!--te-->
 ### Exercício
 <!--ts-->

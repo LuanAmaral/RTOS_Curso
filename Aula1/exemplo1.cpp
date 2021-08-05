@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define CONFIG_FREERTOS_UNICORE 1
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"  
 
@@ -39,6 +41,6 @@ void app_main(void)
                 1,
                 NULL);   
 
-    
+    // vTaskStartSchedule();
     return ;    
 }
