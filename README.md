@@ -26,6 +26,10 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 <!--te-->
 ### Exercício
 <!--ts-->
-* 
+* stack
+* parâmetro
+* priority
+* pre_empts
+* Questão desafio
 <!--te-->
 
