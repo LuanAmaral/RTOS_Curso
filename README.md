@@ -3,7 +3,7 @@
 Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos exercícios resolvidos na aula e a resolução dos exercícios propostos. É muito importante que tente resolver os exercícios antes de olharem a resolução. Tentem também achar formas mais eficientes de resolve-los.
 
 # Sumário das Aulas
-## Aula 1
+## Aula 1 - Introdução
 ### Sumário
 <!--ts-->
 * Introdução ao RTOS
@@ -16,7 +16,7 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 * Blink com frequência indefinida
 <!--te-->
 
-# Aula 2
+# Aula 2 - Task
 ### Sumário
 <!--ts-->
 * Stack
@@ -32,4 +32,15 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 * pre_empts
 * Questão desafio
 <!--te-->
+
+# Aula 3 - Comunicação entre Task
+### Sumário
+<!--ts-->
+* Queue
+* Semáforo
+* Critical Section
+* Mutex
+
+<!--te-->
+
 
