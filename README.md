@@ -40,7 +40,25 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 * Semáforo
 * Critical Section
 * Mutex
-
+<!--te-->
+### Exercícios
+<!--ts-->
+* Enviar a contagem de uma task por Queue
+* Síncronizar tasks com semáforo Binário
+* Contalibilizar quantas vezes um evento ocorreu
+* Corrigir desafio da aula passada
 <!--te-->
 
-
+# Aula 4 - Interrupção e Eventos
+### Sumário
+<!--ts-->
+* Interrupção
+* Eventos
+<!--te-->
+### Exercícios
+<!--ts-->
+* Sincronizar uma Task com uma interrupção
+* portYIELD
+* Sincronizar task com Eventos
+* Questão desafio
+<!--te-->
