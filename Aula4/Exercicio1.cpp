@@ -46,6 +46,17 @@ void TASK(void* parameter)
   }
 }
 
+void printString(void *arg)
+{
+  for(;;)
+  {
+    ESP_LOGI("TASK", "print string");
+    uint64_t start_time = esp_timer_get_time();
+    while(esp_timer_get_time() - start_time <= 3000000);
+    vTaskDelay(pdMS_TO_TICKS(10));
+  }
+}
+
 void app_main(void)
 {
     gpio_config_t pin_config;
@@ -53,7 +64,7 @@ void app_main(void)
     pin_config.pin_bit_mask = 1 << BOTAO;
     pin_config.pull_up_en = GPIO_PULLUP_ENABLE;
     pin_config.pull_down_en = GPIO_PULLDOWN_DISABLE;
-    pin_config.intr_type = GPIO_INTR_LOW_LEVEL;
+    pin_config.intr_type = GPIO_INTR_NEGEDGE;
     
     gpio_config(&pin_config);
 

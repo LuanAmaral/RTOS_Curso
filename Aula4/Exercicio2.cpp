@@ -35,7 +35,7 @@ void interrupt(void *arg)
 {
     BaseType_t isHighTask;
     xSemaphoreGiveFromISR(semaphore_handle, &isHighTask);
-    portYIELD_FROM_ISR(isHighTask);
+    // portYIELD_FROM_ISR(isHighTask);
     gpio_set_level(LED, 1);
 }
 
@@ -69,7 +69,7 @@ void app_main(void)
     pin_config.pin_bit_mask = 1 << BOTAO;
     pin_config.pull_up_en = GPIO_PULLUP_ENABLE;
     pin_config.pull_down_en = GPIO_PULLDOWN_DISABLE;
-    pin_config.intr_type = GPIO_INTR_LOW_LEVEL;
+    pin_config.intr_type = GPIO_INTR_NEGEDGE;
     
     gpio_config(&pin_config);
    

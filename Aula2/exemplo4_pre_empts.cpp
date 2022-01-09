@@ -56,10 +56,5 @@ void app_main(void)
                 2,
                 NULL);
 
-    while (1)
-    {
-        esp_timer_get_time();
-    }
-    
     return;
 }

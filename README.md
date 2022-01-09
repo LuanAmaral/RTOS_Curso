@@ -62,3 +62,13 @@ Cada pasta é referente a cada aula do curso. Dentro dela, teremos o código dos
 * Sincronizar task com Eventos
 * Questão desafio
 <!--te-->
+
+#Aula 5 - IDF-freeRTOS
+### Sumário
+<!--ts-->
+* Direfenças entre IDF-freeRTOS e vanilla freeRTOS
+<!--te-->
+### Exercícios
+<!--ts-->
+* Aplicação multicore
+<!--te-->
